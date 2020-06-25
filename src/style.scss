@@ -10,6 +10,12 @@ body {
   text-align: center;
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
 .text-box {
   display: flex;
   flex-direction: row;
@@ -19,7 +25,6 @@ body {
 
 
 #editor {
-  height: 100vh;
   margin: 50px;
   width: 40%;
   padding: 10px;
