@@ -73,19 +73,19 @@ const MarkdownPreviewer = React.createClass({
   render: function() {
     return (
       <div className="text-box"> 
-        <h1> INPUT </h1>
         <textarea 
           onKeyUp={this.convert} 
           onPaste={this.convert} 
           className="editor" 
           id="editor"
           defaultValue={this.input}>
+          <h1> INPUT </h1>
         </textarea>
-        <h1> OUTPUT </h1>
         <div 
           className="preview" 
           id="preview" 
           dangerouslySetInnerHTML = {this.createMarkup()} >
+          <h1> OUTPUT </h1>
         </div>
       </div>
     )
