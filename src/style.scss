@@ -2,6 +2,7 @@ body {
   background-color: rgba(212, 76, 61, 0.863);
   margin: 0 auto;
   font-family: 'Inconsolata', monospace;
+  color: #141414bd
 }
 
 .header {
@@ -35,4 +36,13 @@ body {
   height: 100%;
   margin: 50px;
   padding: 10px;
+}
+
+@media  only screen and (max-width: 700px) {
+  text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
