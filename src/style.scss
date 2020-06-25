@@ -14,7 +14,7 @@ body {
 
 h1 {
   font-weight: 800;
-  color: #31072ebd;
+  color: #330330cc;
 }
 
 .footer {
@@ -50,5 +50,9 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  #editor {
+    width: 80%;
   }
 }
