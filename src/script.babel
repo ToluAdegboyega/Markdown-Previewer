@@ -79,13 +79,11 @@ const MarkdownPreviewer = React.createClass({
           className="editor" 
           id="editor"
           defaultValue={this.input}>
-          <h1> INPUT </h1>
         </textarea>
         <div 
           className="preview" 
           id="preview" 
           dangerouslySetInnerHTML = {this.createMarkup()} >
-          <h1> OUTPUT </h1>
         </div>
       </div>
     )
