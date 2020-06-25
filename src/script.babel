@@ -48,7 +48,7 @@ And here. | Okay. | I think we get it.
 */
 
 const MarkdownPreviewer = React.createClass({
-  input: 'Heading \n======= \n\nSub-heading \n----------- \n\n### Another deeper heading \n\nParagraphs are separated \nby a blank line.  \n\nLeave 2 spaces at the end of a line to do a line break  \n \nText attributes *italic*, **bold**, `monospace`, ~~strikethrough~~ . \n\nShopping list: \n* apples \n* oranges \n* pears \n\nNumbered list: \n\n1. apples \n2. oranges \n3. pears  \n\nThe rain---not the reign---in Spain.  \n\n *Text borrowed from [Herman Fassett](https://freecodecamp.com/hermanfassett)*'
+  input: 'Heading \n======= \n\nSub-heading \n----------- \n\n### Another deeper heading \n\nParagraphs are separated \nby a blank line.  \n\nLeave 2 spaces at the end of a line to do a line break  \n \nText attributes *italic*, **bold**, `monospace`, ~~strikethrough~~ . \n\nShopping list: \n* lettuce \n* avocados \n* mangoes \n\nNumbered list: \n\n1. lettuce \n2. avocados \n3. mangoes '
   ,
   
   getInitialState: function() {
